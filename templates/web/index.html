@@ -5,7 +5,7 @@
     <main>
         <!-- ============= Hero Style Start ============= -->
         <section class="hero_style__one v-dark">
-            <img src="assets/images/hero-bg-dark.png" alt="backgroud" class="hero-grid-shape">
+            <img src="{% static 'web/assets/images/hero-bg-dark.png'%}" alt="backgroud" class="hero-grid-shape">
             <div class="container">
                 <div class="hero-content text-center">
                     <h1 class="hero__title">I’m Martin</h1>
@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="intro-text-content">
                     <div class="intro-text-content position-relative">
-                        <img src="assets/images/icons/pin-white.png" alt="pin"
+                        <img src="{% static 'web/assets/images/icons/pin-white.png'%}" alt="pin"
                             class="intro-pin d-lg-block d-none wow fadeInLeft" data-wow-delay="0.05s">
                         <p>Hello, I’m Martin</p>
                         <h3>I work with businesses to develop ideas into practical and enjoyable digital solutions.
@@ -87,18 +87,18 @@
                 <div class="row gy-4 gx-4">
                     <div class="col-lg-5">
                         <div class="author-image wow fadeInDown" data-wow-delay="0.3s">
-                            <img src="assets/images/about/about-1.webp" alt="author image" class="w-100">
+                            <img src="{% static 'web/assets/images/about/about-1.webp'%}" alt="author image" class="w-100">
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="about-content">
                             <div class="text-end d-lg-block d-none wow fadeInRight" data-wow-delay="0.6s">
-                                <img src="assets/images/about/about-2.webp" alt="about image 2">
+                                <img src="{% static 'web/assets/images/about/about-2.webp'%}" alt="about image 2">
                             </div>
                             <div class="section-heading v-dark">
                                 <span>About myself</span>
                                 <h2>
-                                    MY LIFE <a href="#"><img src="assets/images/icons/play-circle.png"
+                                    MY LIFE <a href="#"><img src="{% static 'web/assets/images/icons/play-circle.png'%}"
                                             alt="play-icon"></a> <br>
                                     WITH DESIGN
                                 </h2>
@@ -108,7 +108,7 @@
                                 repurpose proactive bandwidth whereas clicksand. Compellingly repurpose covalent core.
                             </p>
                             <div class="about__btn d-flex gap-4 flex-wrap align-items-center">
-                                <a href="assets/example-cv.pdf" download="proposed_file_name" title="download Cv"
+                                <a href="{% static 'web/assets/example-cv.pdf'%}" download="proposed_file_name" title="download Cv"
                                     class="btn-rounded-lg"><span>Download CV</span></a>
                                 <div class="">
                                     <a href="#" title="Explore Case Studies" class="btn-border-border v-dark">Case
@@ -129,7 +129,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="d-lg-block d-none position-relative">
-                            <img src="assets/images/icons/pin.png" alt="pin"
+                            <img src="{% static 'web/assets/images/icons/pin.png'%}" alt="pin"
                                 class="heading-icon position-absolute left-0 top-0 pt-1">
                             <h4 class="client-title text-white">
                                 Proudly work
@@ -141,27 +141,27 @@
                         <div class="row row-cols-3 row-cols-md-4 row-cols-lg-5 gy-3 align-items-center marquee__inner">
                             <div class="col">
                                 <div class="single-client text-center">
-                                    <img src="assets/images/clients/client-dark1.png" alt="client">
+                                    <img src="{% static 'web/assets/images/clients/client-dark1.png'%}" alt="client">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="single-client text-center">
-                                    <img src="assets/images/clients/client-dark2.png" alt="client">
+                                    <img src="{% static 'web/assets/images/clients/client-dark2.png'%}" alt="client">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="single-client text-center">
-                                    <img src="assets/images/clients/client-dark3.png" alt="client">
+                                    <img src="{% static 'web/assets/images/clients/client-dark3.png'%}" alt="client">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="single-client text-center">
-                                    <img src="assets/images/clients/client-dark4.png" alt="client">
+                                    <img src="{% static 'web/assets/images/clients/client-dark4.png'%}" alt="client">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="single-client text-center">
-                                    <img src="assets/images/clients/client-dark5.png" alt="client">
+                                    <img src="{% static 'web/assets/images/clients/client-dark5.png'%}" alt="client">
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                     </div>
                     <div class="col-lg-6">
                         <h3 class="service-name v-dark">
-                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-2.webp"
+                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-2.webp'%}"
                                 class="block__title">WEBSITE DESIGN</a>
                         </h3>
                     </div>
@@ -204,7 +204,7 @@
                     </div>
                     <div class="col-lg-6">
                         <h3 class="service-name v-dark">
-                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-3.webp"
+                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-3.webp'%}"
                                 class="block__title">UI/UX research</a>
                         </h3>
                     </div>
@@ -225,7 +225,7 @@
                     </div>
                     <div class="col-lg-6">
                         <h3 class="service-name v-dark">
-                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-1.webp"
+                            <a href="#" data-fx="1" data-img="./assets/images/portfolio/feat-1.webp'%}"
                                 class="block__title">design system </a>
                         </h3>
                     </div>
@@ -248,7 +248,7 @@
         <section class="portfolio-style-one space-y-top bg-black" id="portfolio">
             <div class="container">
                 <div class="section-heading pb-5 v-dark">
-                    <img src="assets/images/icons/pin.png" alt="pin" class="heading-icon">
+                    <img src="{% static 'web/assets/images/icons/pin.png'%}" alt="pin" class="heading-icon">
                     <h2>FEATURED WORK</h2>
                 </div>
             </div>
@@ -259,7 +259,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-4.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-4.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -276,7 +276,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-3.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-3.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -293,7 +293,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-1.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-1.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -310,7 +310,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-2.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-2.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -327,7 +327,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-4.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-4.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -344,7 +344,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-3.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-3.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -361,7 +361,7 @@
                             <div class="portfolio-card v-dark">
                                 <div class="portfolio-img">
                                     <a href="javascript:void(0)" data-bs-toggle="modal"
-                                    data-bs-target="#portfolioModal"><img src="assets/images/portfolio/feat-2.webp"
+                                    data-bs-target="#portfolioModal"><img src="{% static 'web/assets/images/portfolio/feat-2.webp'%}"
                                             alt="portfolio-item"></a>
                                 </div>
                                 <div class="portfolio-disc">
@@ -418,10 +418,10 @@
                         </div>
                         <div class="blog-thumb row">
                             <div class="col-6">
-                                <img src="assets/images/portfolio/portfolio-feat-1.webp" alt="portfolio">
+                                <img src="{% static 'web/assets/images/portfolio/portfolio-feat-1.webp'%}" alt="portfolio">
                             </div>
                             <div class="col-6">
-                                <img src="assets/images/portfolio/portfolio-feat-2.webp" alt="portfolio">
+                                <img src="{% static 'web/assets/images/portfolio/portfolio-feat-2.webp'%}" alt="portfolio">
                             </div>
                         </div>
                         <ul class="blog-meta">
@@ -595,7 +595,7 @@
         <section class="pricing-style-one space-y-top space-y-bottom bg-surface-base v-dark" id="pricing">
             <div class="container">
                 <div class="section-heading pb-5 v-dark">
-                    <img src="assets/images/icons/pin.png" alt="pin" class="heading-icon">
+                    <img src="{% static 'web/assets/images/icons/pin.png'%}" alt="pin" class="heading-icon">
                     <h2>PRICING PLAN</h2>
                 </div>
                 <div class="row gy-4 gx-4">
@@ -608,7 +608,7 @@
                                     <span>5 hours per week</span>
                                 </div>
                                 <div class="quality-icon">
-                                    <img src="assets/images/icons/basic.png" alt="pricing quality image">
+                                    <img src="{% static 'web/assets/images/icons/basic.png'%}" alt="pricing quality image">
                                 </div>
                             </div>
 
@@ -629,7 +629,7 @@
                                     <span>10 hours per week</span>
                                 </div>
                                 <div class="quality-icon">
-                                    <img src="assets/images/icons/standard.png" alt="pricing quality image">
+                                    <img src="{% static 'web/assets/images/icons/standard.png'%}" alt="pricing quality image">
                                 </div>
                             </div>
 
@@ -650,7 +650,7 @@
                                     <span>15 hours per week</span>
                                 </div>
                                 <div class="quality-icon">
-                                    <img src="assets/images/icons/premium.png" alt="pricing quality image">
+                                    <img src="{% static 'web/assets/images/icons/premium.png'%}" alt="pricing quality image">
                                 </div>
                             </div>
 
@@ -673,7 +673,7 @@
                 <div class="row gy-5 gx-4">
                     <div class="col-lg-6">
                         <div class="section-heading v-dark">
-                            <img src="assets/images/icons/pin.png" alt="pin" class="heading-icon">
+                            <img src="{% static 'web/assets/images/icons/pin.png'%}" alt="pin" class="heading-icon">
                             <h2>MY LATEST WRITING</h2>
                             <p>Compellingly repurpose covalent core competencies for top-line paradigms. <a
                                     href="#">Continually</a> repurpose proactive bandwidth whereas clicksand.
@@ -689,7 +689,7 @@
                             <h4 class="blog-title">
                                 <a href="javascript:void(0)" data-fx="1" data-bs-toggle="modal"
                                     data-bs-target="#blogModal" class="block__title"
-                                    data-img="./assets/images/portfolio/feat-3.webp">Revolutionizing Digital Experiences:
+                                    data-img="./assets/images/portfolio/feat-3.webp'%}">Revolutionizing Digital Experiences:
                                     The Power of UI/UX Design</a>
                             </h4>
                             <p class="blog-disc">With the rise of social media and prolific online
@@ -703,7 +703,7 @@
                             <h4 class="blog-title">
                                 <a href="javascript:void(0)" data-fx="1" data-bs-toggle="modal"
                                     data-bs-target="#blogModal" class="block__title"
-                                    data-img="./assets/images/portfolio/feat-2.webp">The Future of Artificial
+                                    data-img="./assets/images/portfolio/feat-2.webp'%}">The Future of Artificial
                                     Intelligence:
                                     Transforming Industries and Daily Life</a>
                             </h4>
@@ -718,7 +718,7 @@
                             <h4 class="blog-title">
                                 <a href="javascript:void(0)" data-fx="1" data-bs-toggle="modal"
                                     data-bs-target="#blogModal" class="block__title"
-                                    data-img="./assets/images/portfolio/feat-1.webp">Navigating the Post-Pandemic Job
+                                    data-img="./assets/images/portfolio/feat-1.webp'%}">Navigating the Post-Pandemic Job
                                     Market: Strategies for Career Success</a>
                             </h4>
                             <p class="blog-disc">With the rise of social media and prolific online
@@ -741,7 +741,7 @@
                         <h2 class="blog-title text-white">The Art and Science of UI/UX Design: Crafting User-Centric
                             Experiences</h2>
                         <div class="blog-thumb">
-                            <img src="assets/images/portfolio/blog-bg.webp" alt="blog featured image" class="w-100">
+                            <img src="{% static 'web/assets/images/portfolio/blog-bg.webp'%}" alt="blog featured image" class="w-100">
                         </div>
                         <ul class="blog-meta">
                             <li>25 FEB, 2023</li>
